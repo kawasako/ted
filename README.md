@@ -1,1 +1,1 @@
-特に無し
+http://www.waaaaay.com/
