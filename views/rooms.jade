@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  script window.roomKey = "#{key}";
+  h1= title
+  p Welcome to #{title}
+  input#nameBox(value="#{userId}")
+  input#messageBox
+  ul#result
+
+  != js('chat')

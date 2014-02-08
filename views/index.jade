@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  header.hero: .container
+    h1 mainvisual
+  #contents: .container
+    form(method="post", action="create")
+      input(type="text", name="subject", placeholder="今日の集まりは...")
+      input.button(type="submit", value="Let's Start !")
